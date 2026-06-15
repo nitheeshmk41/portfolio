@@ -51,12 +51,12 @@ export function HeroSection() {
                       transition={{ duration: 0.3 }}
                       className="text-zinc-300 whitespace-nowrap"
                     >
-                      {greetings[currentGreetingIndex]}
+                      {greetings[currentGreetingIndex]},
                     </motion.span>
                   </AnimatePresence>
                 </div>
               </div>
-              
+
               <div className="flex items-center gap-x-4">
                 <span>I'm</span>
                 <div className="w-[84px] h-[84px] rounded-[24px] bg-gradient-to-tr from-zinc-800 to-zinc-900 flex items-center justify-center relative group cursor-pointer overflow-hidden border-[2px] border-[rgba(255,255,255,.1)] shadow-[0_0_20px_rgba(255,92,115,.2)] hover:scale-[1.05] hover:rotate-2 hover:shadow-[0_0_30px_rgba(255,92,115,0.3)] hover:border-[var(--color-coral)] transition-all duration-300">
